@@ -9,7 +9,7 @@
 <body>
     <header>
         <div class="container">
-            <h1 class="logo">PythonWeb</h1>
+            <h1 class="logo">BUENA ONDA</h1>
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
@@ -68,92 +68,14 @@
                         </div>
                     </div>
                 </div>
-                
-                <div class="contact-form">
-                    <h3>Invia un Messaggio</h3>
-                    <p>Compila il form sottostante per inviarci un messaggio (demo: il server non elabora form).</p>
-                    
-                    <form id="demo-form">
-                        <div class="form-group">
-                            <label for="name">Nome</label>
-                            <input type="text" id="name" name="name" required>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="subject">Oggetto</label>
-                            <input type="text" id="subject" name="subject" required>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="message">Messaggio</label>
-                            <textarea id="message" name="message" rows="5" required></textarea>
-                        </div>
-                        
-                        <button type="submit" class="btn">Invia Messaggio</button>
-                    </form>
-                </div>
-            </div>
-            
-            <div class="faq-section">
-                <h3>Domande Frequenti</h3>
-                
-                <div class="faq-item">
-                    <div class="faq-question">Come posso eseguire il server?</div>
-                    <div class="faq-answer">
-                        <p>Puoi eseguire il server con il comando: <code>python server.py</code></p>
-                        <p>Assicurati di avere una cartella "www" contenente i file HTML/CSS nel percorso di esecuzione.</p>
-                    </div>
-                </div>
-                
-                <div class="faq-item">
-                    <div class="faq-question">Il server supporta PHP o altri linguaggi?</div>
-                    <div class="faq-answer">
-                        <p>No, questo è un server HTTP statico minimalista. Supporta solo file statici come HTML, CSS, JavaScript e immagini.</p>
-                    </div>
-                </div>
-                
-                <div class="faq-item">
-                    <div class="faq-question">È sicuro usarlo in produzione?</div>
-                    <div class="faq-answer">
-                        <p>No, questo server è creato esclusivamente a scopo didattico. Per ambienti di produzione, si consiglia di utilizzare server web come Nginx, Apache o framework come Flask/Django con server WSGI.</p>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
 
     <footer>
         <div class="container">
-            <p>&copy; 2025 PythonWeb Server - Progetto dimostrativo</p>
+            <p>&copy; 2024 Buena Onda Basket Club - Cesenatico e Cervia</p>
         </div>
     </footer>
-
-    <script>
-        // Script per la gestione del form dimostrativo
-        document.addEventListener('DOMContentLoaded', function() {
-            const form = document.getElementById('demo-form');
-            const faqItems = document.querySelectorAll('.faq-item');
-            
-            // Animazione FAQ
-            faqItems.forEach(item => {
-                const question = item.querySelector('.faq-question');
-                question.addEventListener('click', () => {
-                    item.classList.toggle('active');
-                });
-            });
-            
-            // Prevenzione invio form (è solo dimostrativo)
-            form.addEventListener('submit', function(e) {
-                e.preventDefault();
-                alert('Questo è solo un form dimostrativo. Il server non elabora form in questa versione minimalista.');
-                form.reset();
-            });
-        });
-    </script>
 </body>
 </html>
