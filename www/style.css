@@ -272,8 +272,8 @@ footer {
     padding: 10px 40px;
     position: relative;
     width: 50%;
-    opacity: 0;
-    transform: translateY(20px);
+    opacity: 1; 
+    transform: translateY(0); 
     transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
