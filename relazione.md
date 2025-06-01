@@ -77,7 +77,7 @@ Il sito web dimostrativo è composto da:
 
 - **index.html**: Homepage con introduzione
 - **chi-siamo.html**: Pagina informativa sul progetto
-- **contatti.html**: Pagina con form di contatto dimostrativo e FAQ
+- **contatti.html**: Pagina con contatti e FAQ
 - **style.css**: Foglio di stile condiviso tra tutte le pagine
 
 ### 4.2 Caratteristiche dell'Interfaccia
